@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>LAB REPORT LIST</title>
+      <style>
+            .pan::before {
+                  content: "✔";
+                  /* Unicode checkmark symbol */
+                  margin-right: 5px;
+                  /* Add spacing between icon and text */
+            }
+      </style>
+</head>
+
+<body>
+      <!-- Heading Tag-->
+      <h1>Hello world!</h1>
+      <h2>Hello world!</h2>
+      <h3>Hello world!</h3>
+      <h4>Hello world!</h4>
+      <h5>Hello world!</h5>
+      <h6>Hello world!</h6>
+      <hr>
+      <br>
+      <!-- Paragraph Tag  -->
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, reiciendis! Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Soluta ipsum totam sed dignissimos debitis rem, veniam provident non?
+            Provident quibusdam voluptate quisquam eaque neque velit corrupti, sunt, ut ullam consectetur quas, cumque
+            earum. Atque tempora vitae, nihil ratione sequi accusantium ullam. Velit laboriosam eveniet totam ut non qui
+            animi suscipit.</p>
+      <hr>
+      <br>
+      <!-- HTML FORMATTING TEXT TAGS -->
+      <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <b>Sed, reiciendis! Lorem ipsum dolor</b> sit,
+            <strong>amet consectetur adipisicing</strong> elit. Soluta ipsum totam sed <i>dignissimos</i> debitis rem,
+            veniam <em>provident non?</em> Provident <del>quibusdam</del> voluptate quisquam eaque neque velit corrupti,
+            sunt, ut ullam <mark>consectetur</mark> quas, cumque earum. <ins>Atque</ins> tempora vitae<sub>sub</sub>
+            nihil ratione sequi<sup>sup</sup> accusantium ullam. Velit laboriosam eveniet totam ut non qui animi
+            <small>suscipit</small>.</p>
+      <hr>
+      <br>
+      <!-- HTML LINKS: HYPERLINK -->
+      <a href="https://www.youtube.com/@pan78mtricks/">Follow My Channel</a>
+      <p>
+            Send Email to <a href="mailto:arypankaj78@gmail.com">Pankaj</a>
+      </p>
+      <br> <br>
+
+      <!-- Multimedia Content: -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nZEbyiXw3-k?si=Bh_py3XAbFaFa_aT"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>Watch my Video</iframe>
+      <br>
+      <hr>
+      <img src="resources/tag.png" alt="html-tag-list" width="384px" height="300px" align="middle">
+      <br>
+      <hr>
+      <a href="https://www.youtube.com/@pan78mtricks/">
+            <img src="resources/link.png" alt="Youtube link align" align="middle">
+      </a>
+      <br>
+      <video height="240" width="320" controls>
+            <source src="Video\Intro-3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+      </video>
+      <br>
+      <audio src="Audio/BG sound.mp3" width="100" height="100" controls>Music Tag</audio>
+
+      <!-- End Multimedia tag -->
+
+      <!-- LIST TAG START HERE -->
+      <H2 style="text-align: center;">ORDER LIST</H2>
+      <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Rice</li>
+            <li>Milk</li>
+      </ol>
+      <H2 style="text-align: center;">NESTED ORDER LIST</H2>
+      <ol>
+            <li>MATH</li>
+            <ol type="I" start="12">
+                  <li>Algebra</li>
+                  <li>Calculus</li>
+                  <li>Geometry</li>
+                  <li>Number Theory</li>
+            </ol>
+            <li>Programming Language</li>
+            <ol type="A" start="6">
+                  <li>Python</li>
+                  <li>JAVA</li>
+                  <li>PHP</li>
+                  <li>HTML</li>
+            </ol>
+            <li>NETWORKING</li>
+            <ol type="1" reversed start="20">
+                  <li>Bridge</li>
+                  <li>Campus Network</li>
+                  <li>DNS</li>
+                  <li>HUB</li>
+            </ol>
+
+
+            <H2 style="text-align: center;">UNORDER LIST</H2>
+            <ul style="list-style-type: disc;">
+                  <li>Coffee</li>
+                  <li>Tea</li>
+                  <li>Rice</li>
+                  <li>Milk</li>
+            </ul>
+            <H2 style="text-align: center;">NESTED UNORDER LIST</H2>
+            <ul style="list-style-type:number;">
+                  <li>MATH</li>
+                  <ul style="list-style-type: lower-alpha;">
+                        <li>Algebra</li>
+                        <li>Calculus</li>
+                        <li>Geometry</li>
+                        <li>Number Theory</li>
+                  </ul>
+                  <li>Programming Language</li>
+                  <ul style="list-style-type: upper-alpha;" reversed start="20">
+                        <li>Python</li>
+                        <li>JAVA</li>
+                        <li>PHP</li>
+                        <li>HTML</li>
+                  </ul>
+                  <li>NETWORKING</li>
+                  <ul style="list-style-type: none;">
+                        <li class="pan">Bridge</li>
+                        <li class="pan">Campus Network</li>
+                        <li class="pan">DNS</li>
+                        <li class="pan">HUB</li>
+                  </ul>
+            </ul>
+
+            <H2 style="text-align: center;">DESCRIPTION LIST</H2>
+            <dl>
+                  <dt>CSE 302</dt>
+                  <dd> - Web Programming Lab</dd>
+                  <dd> - Using core HTML and CSS</dd>
+            </dl>
+            <dl>
+                  <dt>CSE 310</dt>
+                  <dd> - OS Programming Lab</dd>
+                  <dd> - Using core BASH and SHELL</dd>
+            </dl>
+
+
+
+</body>
+
+</html>

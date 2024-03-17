@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="res_form">
+        <form action="res.html">
+            <h1 class="pan">Login</h1>
+            <div class="logo">
+                <img src="log.png" alt="" srcset="" width="100px" height="100px">
+            </div>
+            <label for="user">Username/Email</label>
+            <input type="text" id="user" class="input-field">
+            <br> <br>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" class="input-field">
+            <br>
+           <p class="pan">
+            <button class="sign" type="submit">SignUp</button>
+            <button class="login" type="button" onclick="showMessage()">Login</button>
+           </p>
+        </form>
+    </div>
+    <script>
+        function showMessage() {
+            alert("Login Successful!!");
+        }
+    </script>
+</body>
+</html>

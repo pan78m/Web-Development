@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Making</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="res_form">
+        <form action="Login.html">
+            <h2 class="pan">Registration Form</h2>
+            <div class="logo"> <input type="image" id="logo" src="Register.png" width="100" height="100"
+                    alt="Register logo">
+            </div>
+            <br><br>
+           
+            <label for="date">Date of Birth</label>
+            <input type="date" id="date" class="input-field">
+            <br><br>
+            <label for="gender">Gender</label> <br>
+            <input type="radio" name="gender" value="male" id="gender">Male <br>
+            <input type="radio" name="gender" value="female" id="gender">Female <br>
+            <br>
+            <label for="lan">Language</label>
+            <select name="language" id="lan" class="input-field">
+                <option value="">(Select your Language)</option>
+                <option value="ban">Bangla</option>
+                <option value="ENG">English</option>
+                <option value="Hin">Hindi</option>
+                <option value="ja">Japanese</option>
+            </select>
+            <br><br>
+            <label for="country">Country</label>
+            <select name="country" id="country" class="input-field">
+                <option value="">(Please Select your Country)</option>
+                <option value="Ban">Bangladesh</option>
+                <option value="India">Bharat</option>
+                <option value="usa">USA</option>
+                <option value="japan">Japan</option>
+            </select>
+            <br> <br>
+
+            <label for="add">Why You Join This Website?</label> <br>
+            <textarea id="add" cols="30" rows="5" placeholder="Enter Your Address Here!" class="input-field"></textarea>
+
+            <p class="pan">
+                <button class="sign" type="submit" onclick="LoginPage()">SignUp</button>
+                <button class="login" type="button" onclick="LoginPage()">Login</button>
+            </p>
+
+        </form>
+    </div>
+    <script>
+        function LoginPage(){
+            window.location.href="login.html"
+        }
+    </script>
+   
+</body>
+
+</html>

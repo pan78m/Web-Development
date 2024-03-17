@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #7a5858;
+    padding-top: 20px;
+    /* Set a background color for the entire page */
+}
+
+.res_form {
+    background-color: #ffffff;
+    /* Set a background color for the form */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+    display: flex;
+    /* Make the form container a flexbox */
+    flex-direction: column;
+    /* Arrange elements vertically */
+    align-items: center;
+    /* Center elements horizontally */
+}
+
+.logo img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.logo {
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    /* Set all input fields to 100% width */
+
+    margin-bottom: 5px;
+    /* Add some space between input fields */
+}
+
+.pan {
+    text-align: center;
+}
+
+.sign,
+.login {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

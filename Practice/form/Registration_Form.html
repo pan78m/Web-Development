@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Making</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #7a5858; /* Set a background color for the entire page */
+        }
+        .res_form {
+            background-color: #ffffff; /* Set a background color for the form */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+            
+        }
+        .logo{
+          text-align: center;  
+        }
+       
+    </style>
+</head>
+<body>
+   
+    <div class="res_form">
+        <form action="" >
+            <h2><marquee behavior="" direction="">Registration Form</marquee></h2>
+            <input type="image" id="logo" src="Register.png" width="150" height="150" alt="Register logo" > <br><br>
+            <label for="fn">Student Name</label>
+            <input type="text" id="fn">
+            <br> <br>
+            <label for="n">Student ID</label>
+            <input type="number" id="n">
+            <br><br>
+            
+            <label for="mail">Email</label>
+            <input type="email" id="mail">
+            <br> <br>
+            <label for="user">Username</label>
+            <input type="text" id="user">
+            <br><br>
+    
+            <label for="pass">Password</label>
+            <input type="password" id="pass">
+            <br> <br>
+            <label for="date">Date of Birth</label>
+            <input type="date" id="date">
+            <br><br>
+           <label for="gender">Gender</label> <br>
+            <input type="radio" name="gender" value="male" id="gender">Male <br>
+            <input type="radio" name="gender" value="female" id="gender" >Female <br>
+           <br>
+            <label for="lan">Language</label>
+            <!-- <input type="checkbox" name="language" value="bangla" id="lan">Bengali <br>
+            <input type="checkbox" name="language" value="english" id="lan">English <br>
+            <input type="checkbox" name="language" value="bangla" id="lan">Bengali <br>
+            <input type="checkbox" name="language" value="english" id="lan">English <br> -->
+            <select name="language" id="lan">
+                <option value="">(Select your Language)</option>
+                <option value="ban">Bangla</option>
+                <option value="ENG">English</option>
+                <option value="Hin">Hindi</option>
+                <option value="ja">Japanese</option>
+            </select>
+            <br><br>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="">(Please Select your Country)</option>
+                <option value="Ban">Bangladesh</option>
+                <option value="India">Bharat</option>
+                <option value="usa">USA</option>
+                <option value="japan">Japan</option>
+            </select>
+            <br> <br>
+    
+            <label for="add">Address</label> <br>
+            <textarea  id="add" cols="30" rows="5" placeholder="Enter Your Address Here!"></textarea>
+    
+            <br>
+            <label for="document">Attach your document</label> <br>
+            <input type="file" id="document">
+            <br> <br>
+            <label for="ss"></label>
+            <input type="submit" id="ss">
+            <label for="date"></label>
+            <input type="reset" id="date">
+            <br><br>
+            
+    
+        </form>
+    </div>
+   
+</body>
+</html>
