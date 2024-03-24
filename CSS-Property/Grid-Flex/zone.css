@@ -1,0 +1,86 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: grey;
+}
+nav{
+    background-color: blueviolet;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+}
+h1{
+    color: white;
+}
+ul{
+    list-style: none;
+    text-align: right;
+      
+}
+li{
+    display: inline;
+    padding:10px 20px;
+    color: white;
+    
+}
+li:hover{
+    background-color: cadetblue;
+    color: magenta;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.log{
+    z-index: 2;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.head{
+    margin: 100px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+}
+.offer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.price-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+
+}
+
+.basic{
+    width: 300px;
+    background-color: gainsboro;
+    text-align: center;
+    
+}
+.starter{
+    width: 300px;
+    padding-top: 30px;
+    text-align: center;
+
+    background-color: gainsboro;
+}
+.premium{
+    width: 300px;
+    background-color: gainsboro;
+    text-align: center;
+    height: 50vh;
+    padding-top: 100px;
+}
+
+.box img{
+    width: 40px;
+}

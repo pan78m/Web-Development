@@ -1,0 +1,43 @@
+/* Universel css */
+*{
+    /* border: 1px solid red; */
+    box-sizing: border-box; 
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    width: 50%;
+}
+span{
+    display: inline-block;
+}
+img{
+    width: 150px;
+    display: none;
+}
+a{
+    margin: 20px;
+}
+ul{
+    
+    list-style: none;
+    text-align: end;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    
+}
+li{
+    display: inline;
+    padding: 10px;
+    border: 2px solid red;
+    
+}
+li:hover{
+    color: blueviolet;
+    cursor: pointer;
+}

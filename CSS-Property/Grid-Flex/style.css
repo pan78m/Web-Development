@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 200px;
+    border: 1px solid red;
+}
+.card img{
+    width: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content:space-between
+    
+}

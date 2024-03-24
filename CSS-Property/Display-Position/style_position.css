@@ -1,0 +1,49 @@
+
+*{
+    
+    /* box-sizing: border-box; */
+}
+.container{
+    width: 400px;
+    height: 600px;
+    background-color: gainsboro;
+    /* position: absolute; */
+    margin: 100px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.box1{
+    position: relative;
+    top: 150px;
+    left: 150px;
+    z-index: 1;
+    background-color: red;
+}
+.box2{
+    position: absolute;
+    /* bottom: 200px;
+    top: 200px; */
+    right: 0px;
+    bottom: 0px;
+    /* width: 200px;
+    height: 800px; */
+    background-color: blueviolet;
+    z-index: 1;
+}
+.box3{
+    background-color: blue;
+    position: sticky;
+    top: 200px;
+    right: 50px;
+    
+}
+.box4{
+    background-color: pink;
+    position: fixed;
+    
+}
+.space{
+    height: 300vh;
+}

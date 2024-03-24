@@ -1,0 +1,15 @@
+/* Universel css */
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box; /* box-sizing important for box size fixed when use different types of size in the box
+It fixed the actual size respect with the border and others technique also work here*/
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 20px solid red;
+    padding: 20px;
+    margin: 40px;
+    
+}
